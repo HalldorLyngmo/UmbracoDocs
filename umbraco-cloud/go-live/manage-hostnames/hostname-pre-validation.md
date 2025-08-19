@@ -89,4 +89,5 @@ You can do this by following these steps:
 1. Enable Pre-Validation for the Hostname.
 2. Add the TXT record provided to your Domain Name System (DNS) settings. The record will prove ownership of the domain.
 3. Upload a custom certificate and set a binding to the Hostname.
-4. Wait a couple of minutes, then disable Pre-Validation for the Hostname. The status will now show "Manual" for the Hostname.
+4. Check the Hostname Pre-Validation status dialog to see if the certificate binding has completed successfully. The status for Certificate issued will then be <strong>active</strong> 
+5. Now disable Pre-Validation for the Hostname. The status will then show "Manual" for the Hostname.
